@@ -82,7 +82,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 .sec { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
 .sec--surface { background: var(--surface); border-block: 1px solid var(--line); }
 .sec--alt { background: var(--alt); }
-.grid > * { min-width: 0; }
+.grid > * { min-width: 0;max-width: 1300px; }
 
 /* Typography */
 .label {
