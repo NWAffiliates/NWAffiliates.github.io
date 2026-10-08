@@ -390,13 +390,13 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
           <h2>Nicolas Wylock</h2>
           <p>38 years old · Belgium</p>
         </div>
-     <div>
+      </div>
       <dl class="id-list">
         <div><dt>Status</dt><dd>Independent B2B affiliate</dd></div>
         <div><dt>Offers</dt><dd>SaaS, software, recruitment services</dd></div>
         <div><dt>Channels</dt><dd>B2B cold email, SEO, X, LinkedIn, Instagram, Pinterest</dd></div>
         <div><dt>Formats</dt><dd>Comparisons, guides, ebooks, use cases, videos and more</dd></div>
-      </dl><div>
+      </dl>
       <div>
         <h3>My commitments</h3>
         <ul class="checks">
@@ -834,4 +834,3 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
   }
 })();
 </script>
-
