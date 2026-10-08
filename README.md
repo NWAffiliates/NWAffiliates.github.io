@@ -78,7 +78,7 @@ a { color: inherit; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 section[id] { scroll-margin-top: 4.5rem; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.wrap { max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
+.wrap { max-width: 1300px; margin-inline: auto; padding-inline: var(--gutter); }
 .sec { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
 .sec--surface { background: var(--surface); border-block: 1px solid var(--line); }
 .sec--alt { background: var(--alt); }
