@@ -366,7 +366,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
       <h1>B2B affiliate marketing, run with method and <em>by the rules</em>.</h1>
       <p class="lead">I'm Nicolas Wylock. I recommend SaaS, software and recruitment services to business decision-makers across six channels, applying the terms of every affiliate program to the letter.</p>
       <div class="cta-row">
-        <a class="btn" href="#contact">Propose a program</a>
+        
         <a class="btn btn--ghost" href="#leviers">See my method</a>
       </div>
       <div class="idea">
@@ -730,8 +730,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
     <div class="sec-head">
       <span class="label">FAQ</span>
       <h2>Frequently asked questions.</h2>
-      <p>Can't find your answer? Write to me and I'll reply precisely.</p>
-      <div><a class="btn btn--ghost" href="#contact">Ask a question</a></div>
+      
     </div>
     <div class="faq">
       <details><summary>Who is behind this page?</summary><p>Nicolas Wylock, 38, based in Belgium. I work as an independent B2B affiliate, specializing in SaaS, software and recruitment services.</p></details>
