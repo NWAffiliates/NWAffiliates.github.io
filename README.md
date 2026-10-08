@@ -365,7 +365,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
       <div class="id-person">
         
   <div class="avatar" aria-hidden="true">
-  <img src="images/avatar.jpg" alt="">
+  <img src="images/profile.jpg" alt="">
 </div>
 </div>
         <div>
