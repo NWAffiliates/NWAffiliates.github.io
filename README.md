@@ -155,7 +155,20 @@ h4 { font-family: var(--font-body); font-size: .95rem; font-weight: 650; line-he
 .pill { display: inline-flex; align-items: center; gap: .45rem; padding: .25rem .7rem; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .78rem; font-weight: 600; }
 .pill::before { content: ""; width: .45rem; height: .45rem; border-radius: 50%; background: var(--accent); }
 .id-person { display: flex; align-items: center; gap: 1rem; }
-.avatar { display: grid; place-items: center; width: 3.6rem; height: 3.6rem; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; flex: none; }
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: none;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .id-person h2 { font-size: 1.4rem; }
 .id-person p { color: var(--muted); font-size: .92rem; }
 .id-list { display: grid; gap: 0; border-block: 1px solid var(--line); }
@@ -315,7 +328,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
 
 <header class="nav">
   <div class="wrap nav-in">
-    <a class="brand" href="#top"><span class="mono-badge" aria-hidden="true">NW</span>Nicolas Wylock</a>
+    <a class="brand" href="#top">Nicolas Wylock</a>
     <nav aria-label="Page sections">
       <a href="#services">Services</a>
       <a href="#leviers">Channels</a>
@@ -323,7 +336,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
       <a href="#objections">Objections</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn btn--sm" href="#contact">Contact me</a>
+    
   </div>
 </header>
 
@@ -350,7 +363,11 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
         <span class="pill">B2B programs: open to applications</span>
       </div>
       <div class="id-person">
-        <div class="avatar" aria-hidden="true">NW</div>
+        
+  <div class="avatar" aria-hidden="true">
+  <img src="images/avatar.jpg" alt="">
+</div>
+</div>
         <div>
           <h2>Nicolas Wylock</h2>
           <p>38 years old · Belgium</p>
@@ -710,34 +727,12 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <div class="wrap contact-grid grid">
-    <div>
-      <span class="label">Contact</span>
-      <h2>Do you run an affiliate program?</h2>
-      <p class="lead">Send me the program link and its terms. I'll reply with the channels I would use and those I would rule out.</p>
-    </div>
-    <div class="contact-box">
-      <h3>What to include to move fast</h3>
-      <ul class="ticks">
-        <li>The program link and its terms and conditions</li>
-        <li>Commission, cookie duration and payment timing</li>
-        <li>Allowed and forbidden channels</li>
-        <li>Brand resources: logos, approved copy, visuals</li>
-      </ul>
-      <div class="mail-row" id="mail-row" hidden>
-        <code id="mail-addr"></code>
-        <button class="btn btn--sm btn--band" id="mail-copy" type="button">Copy</button>
-      </div>
-      <div class="channels" id="channels" aria-label="Channels"></div>
-    </div>
-  </div>
-</section>
+
 </main>
 
 <footer class="foot">
   <div class="wrap foot-in">
-    <p>This page presents my B2B affiliate activity. Content I publish about brands may contain affiliate links, always disclosed as such.</p>
+    <p></p>
     <p>© 2026 Nicolas Wylock · Belgium</p>
   </div>
 </footer>
