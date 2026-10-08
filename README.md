@@ -3,6 +3,12 @@
 <style>
 /* Concept: an application file. Identity card beside the hero, sections on alternating grounds,
    channels in tabs with four constant headings (professionalism, best practices, techniques, program rules). */
+
+   .container-lg {
+    max-width: 1300px!important;
+    margin-right: auto;
+    margin-left: auto;
+}
 :root {
   --bg: #F5F8FA;
   --surface: #FFFFFF;
