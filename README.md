@@ -156,11 +156,12 @@ h4 { font-family: var(--font-body); font-size: .95rem; font-weight: 650; line-he
 .pill::before { content: ""; width: .45rem; height: .45rem; border-radius: 50%; background: var(--accent); }
 .id-person { display: flex; align-items: center; gap: 1rem; }
 .avatar {
-  width: 4.2rem;
-  height: 4.2rem;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   overflow: hidden;
   flex: none;
+  margin: auto;
 }
 
 .avatar img {
