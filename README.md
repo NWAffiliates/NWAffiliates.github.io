@@ -424,7 +424,7 @@ a.chip { background: var(--band-accent); border-color: var(--band-accent); color
     <div class="sec-head">
       <span class="label">Promoted services</span>
       <h2>Offers that can be documented, compared and explained.</h2>
-      <p>I focus on products and services a business buyer can evaluate on precise criteria: features, pricing, limits and support.</p>
+      <p>I focus on products and services a business buyer can evaluate on precise criteria: features, pricing, limits, reviews and support.</p>
     </div>
     <div class="services grid">
       <article class="card">
