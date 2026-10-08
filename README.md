@@ -100,8 +100,8 @@ h2 { font-size: clamp(1.75rem, 3.5vw, 2.55rem); line-height: 1.12; }
 h3 { font-size: 1.3rem; line-height: 1.25; }
 h4 { font-family: var(--font-body); font-size: .95rem; font-weight: 650; line-height: 1.3; }
 .lead { font-size: 1.125rem; color: var(--muted); max-width: 58ch; }
-.sec-head { max-width: 46rem; margin-bottom: clamp(2rem, 4vw, 3rem); display: grid; gap: .9rem; }
-.sec-head p { color: var(--muted); max-width: 60ch; }
+.sec-head { max-width: 1300px; margin-bottom: clamp(2rem, 4vw, 3rem); display: grid; gap: .9rem; }
+.sec-head p { color: var(--muted); max-width: 1300px; }
 .ic { width: 1.25rem; height: 1.25rem; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Buttons */
